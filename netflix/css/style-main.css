@@ -1,0 +1,94 @@
+:root{
+	--vermelho: #e50914;
+	--preta: #141414;
+}
+
+*{
+	padding: 0; 
+	margin: 0; 
+	font-family: Arial, Tahome, sans-serif; 
+	box-sizing: border-box;
+}
+
+body{
+	background: var(--preta);
+	color: #fff;
+}
+
+header .conteiner{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+header .logo{
+	color: var(--vermelho);
+	font-size: 40px;
+	font-family: 'Arial Black';
+}
+
+header nav a{
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	color: #fff;
+}
+/*Filme principal*/
+.filme-principal{
+	font-size: 16px;
+	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../image/background-strang.jpg');
+	
+	height: 400px;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.filme-principal .descricao{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+	margin-top: 15%;
+	font-size: 40px;
+}
+
+.botao{
+	margin-right: 10px;
+	background-color: rgba(0,0,0,.50);
+	color: white;
+	
+	padding: 20px 30px;
+	border: none;
+	font-size: 12px;
+	
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.botao:hover{
+	background-color: white;
+	color: black;
+}
+
+.botao i{
+	margin-right: 8px;
+}
+
+.filme-principal .conteiner{
+	width: 70%;
+	margin: 20px;
+}
+
+.box-filme{
+	height: 80%;
+	width: 100%;
+	display: block;
+}

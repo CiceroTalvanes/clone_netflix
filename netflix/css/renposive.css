@@ -1,0 +1,35 @@
+@media screen and (max-width:700px){
+	header .conteiner{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.carrosel-filmes{
+		margin-top: 5px;
+	}
+	
+	.botao{
+		display: block;
+		text-align: left;
+		width: 300px;
+		margin-top: 5px;
+	}
+	
+	.box-filme{
+		border: 1px solid #fff;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	header .conteiner{
+		text-transform: uppercase;
+	}
+	
+	.carrosel-filmes{
+		margin-top: 5px;
+	}
+	
+	.box-filme{
+		border: 1px solid #fff;
+	}
+}
